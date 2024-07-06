@@ -7,7 +7,7 @@ type TTodoCardProps = {
   title: string;
   description: string;
   isCompleted?: boolean;
-  priority: string;
+  priority?: string;
 };
 
 const TodoCard = ({
